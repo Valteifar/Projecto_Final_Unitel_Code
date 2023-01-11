@@ -1,0 +1,109 @@
+/* Geral */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fcfdff;
+    margin: 0 auto;
+    font-family: Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+a {
+    text-decoration: none;
+}
+
+h1, h2 {
+    font-weight: bold;
+    font-size: 2.5rem;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 30px auto 0;
+    padding: 10px 0;
+    font-style: italic;
+    font-family:  "Segoe UI Symbol"; 
+}
+
+/* header */
+header {
+    background-color: #20c997;
+    font-family: "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+.container-menu {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 10px auto;
+    margin: 0 100px;
+}
+
+.menu-logo {
+    margin: 15px 20px;
+    padding: 4px 5px 8px;
+    font-size: 1.5rem;
+    font-style: italic;
+    font-weight: bold;
+    text-transform: capitalize;
+    border: 3px solid #f8f9fa;;
+    border-radius: 50px;
+}
+.menu-logo a {
+    color: #f8f9fa;
+}
+
+.menu-lista {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    padding-right: 10px;
+}
+
+.menu-lista-item {
+    margin: 10px 15px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    list-style-type: none;
+    font-weight: normal;
+}
+
+.menu-lista-item a {
+    color: #fff;    
+}
+
+.menu-lista-item a:hover {
+    color: #e9ecef;    
+}
+
+/* Definição de telas */
+@media screen and (max-width: 920px) {
+
+    .container-menu {
+        margin: 0;
+    }
+
+    .menu-logo {
+        margin: 15px auto;
+        padding: 3px 4px 5px;
+        font-size: 1.3rem;
+    }
+
+    .menu-bloco-lista {
+        background-color: #198754;
+        width: 100%;
+    }
+
+    .menu-lista {
+        justify-content: center;
+    }
+
+    .menu-lista-item {
+        margin: 6px 10px 10px;
+        font-size: 1rem;
+    }
+}

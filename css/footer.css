@@ -1,0 +1,197 @@
+/* footer */
+.rodape {
+    display: flex;
+    color: #fff;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-direction: column;
+    background-color: #495057;
+    padding: 20px calc((100% - 960px) /2);
+    font-family: Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol";;
+}
+
+.rodape-bloco {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.rodape-logo {
+    text-align: center;
+}
+
+.rodape a {
+    font-family: "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 1.5rem;
+}
+
+.rodape li {
+    list-style: none;
+}
+
+.rodape p {
+    text-align: center;
+    color: #fff;
+    font-size: 1.1rem;
+    line-height: 30px;    
+}
+
+.rodape-card-servicos {
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    margin-left: 150px;
+    text-align: center;
+}
+
+.rodape-card-contactos {
+    margin-right: 150px;
+}
+
+.rodape-redes {
+    margin: 30px auto -20px;
+}
+
+.card-titulo {
+    margin-bottom: 5px;
+    font-style: italic;
+    font-size: 1.5rem;
+    font-family: "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+.card-item {
+    margin: 20px 0;
+    font-size: 1.1rem;
+}
+
+.footer-icone-container {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-descricao {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    align-items: center;
+}
+
+.footer-icone {
+    width: 25px;
+    height: 25px;
+    margin: 10px;
+}
+
+/* Definição de telas */
+@media screen and (max-width: 817px) {
+    .rodape-card-servicos {
+        margin-left: 100px;
+    }
+    
+    .rodape-card-contactos {
+        margin-right: 100px;
+    }
+
+}
+
+@media screen and (max-width: 720px) {
+
+    .rodape {
+        width: 100%;
+        max-width: none;
+        margin: 0;
+        padding: 50px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .rodape section {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .rodape-logo {
+        font-size: 1.5rem;
+        width: 200px;
+    }
+    
+    .rodape-logo a {
+        margin: 0;
+    }
+    
+    .rodape p {
+        font-size: 1.2rem;
+    }
+    
+    .rodape-card-servicos {
+        margin-left: 40px;
+    }
+    
+    .rodape-card-contactos {
+        margin-right: 40px;
+    }
+}
+
+@media screen and (max-width: 690px) {
+
+    .rodape-card-servicos {
+        margin-left: 0;
+    }
+       
+}
+
+@media screen and (max-width: 420px) {
+
+    .rodape-bloco {
+        margin-left: -15px;
+    }
+
+    .rodape-logo {
+        font-size: 1.5rem;
+        margin: 15px 0 15px 30px;
+        padding: 4px 5px 8px;
+    }
+
+    .rodape p {
+        font-size: 1rem;
+    }
+
+    .footer-icone {
+        width: 20px;
+        height: 20px;
+        margin: 10px;
+    }
+
+    .rodape-card-servicos {
+        flex-direction: column;
+        margin-left: 0;
+    }
+    
+    .rodape-card-contactos {
+        margin-right: 0;
+    }
+
+    .footer-descricao {
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 280px) {
+
+    .footer-icone {
+        width: 15px;
+        height: 15px;
+        margin: 5px;
+    }
+
+    .rodape-bloco {
+        margin-left: -30px;
+    }
+}
